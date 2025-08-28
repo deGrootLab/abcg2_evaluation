@@ -1,1 +1,8 @@
-- uploading....
+- ddg_RBFE.csv: the experimental and estimated ddg values with standard error and BAR error for am1bcc and abcg2.
+- dg_RBFE.csv: the experimental and estimated dg values with standard error for am1bcc and abcg2. The dg values are calculated using the raw ddg values with Cinnabar (https://github.com/OpenFreeEnergy/cinnabar/).
+- ./inputs_GAFF2_AM1-BCC/${target}/inputs/protein/ contains the topology and pdb files of protein.
+- ./inputs_GAFF2_AM1-BCC/${target}/inputs/ligands/ has the topology and structure files (sdf and pdb) of ligands.
+- ./inputs_GAFF2_AM1-BCC/${target}/edge_${LigandA}_${LigandB}/hybridStrTop/ contains the merged pdb (mergedA.pdb and mergedB.pdb), itp (ffmerged.itp and merged_hmr.itp), and the corresponding pair (pairs1.dat and pairs2.dat) files. These files are generated using pmx atomMapping and ligandHybrid commands.
+- The same set of files are available for ./inputs_GAFF2_ABCG2/.
+- ligandname_to_OpenFEligandname.txt: The ligands' name used in this study, and their corresponding name in OpenFE repository. They differ in only a few ligands, for examples the ligands with "${ligname}-flip" are renamed here as "${ligname}".
+- The dg and ddg values are kcal/mol.

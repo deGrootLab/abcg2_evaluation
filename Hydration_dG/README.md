@@ -1,3 +1,4 @@
-- The dg_pmx.csv file contains the hydraion free energy results, calculated with GAFF2/AM1-BCC and GAFF2/ABCG2 models, using gromacs and pmx.
-- inputs_GAFF2_AM1-BCC/${ligand}/ contains the pdb and itp files with GAFF2/AM1-BCC parameters for 642 solutes from the FreeSolv database (https://github.com/MobleyLab/FreeSolv).
-- inputs_GAFF2_ABCG2/${ligand}/ contains the pdb and itp files with GAFF2/ABCG2 parameters for 642 solutes from the FreeSolv database (https://github.com/MobleyLab/FreeSolv).
+- The dg_HFE.csv file contains the hydraion free energy results, calculated with GAFF2/AM1-BCC and GAFF2/ABCG2 models, using gromacs and pmx. The values are in kcal/mol
+- inputs_GAFF2_AM1-BCC/${ligand}/ contains the pdb and itp files for GAFF2/AM1-BCC
+- inputs_GAFF2_ABCG2/${ligand}/ contains the pdb and itp files for GAFF2/ABCG2
+- mdp_files has em,nvt,eq,ti mdp files.

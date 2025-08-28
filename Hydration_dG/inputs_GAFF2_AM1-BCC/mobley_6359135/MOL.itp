@@ -1,0 +1,41 @@
+
+
+
+[ moleculetype ]
+; Name        nrexcl
+MOL  3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+     1          c3      1    MOL     C1      1  0.32560000    12.0100
+     2          cl      1    MOL    CL1      2 -0.08140000    35.4500
+     3          cl      1    MOL    CL2      3 -0.08140000    35.4500
+     4          cl      1    MOL    CL3      4 -0.08140000    35.4500
+     5          cl      1    MOL    CL4      5 -0.08140000    35.4500
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+     1      2      1    0.18092   137240.0
+     1      3      1    0.18092   137240.0
+     1      4      1    0.18092   137240.0
+     1      5      1    0.18092   137240.0
+
+[ pairs ]
+;  ai    aj funct            c0            c1            c2            c3
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+     2      1      3      1    109.340000     582.250000 
+     2      1      4      1    109.340000     582.250000 
+     2      1      5      1    109.340000     582.250000 
+     3      1      4      1    109.340000     582.250000 
+     3      1      5      1    109.340000     582.250000 
+     4      1      5      1    109.340000     582.250000 
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
+
+
+#ifdef POSRES
+#include "posre.itp"
+#endif

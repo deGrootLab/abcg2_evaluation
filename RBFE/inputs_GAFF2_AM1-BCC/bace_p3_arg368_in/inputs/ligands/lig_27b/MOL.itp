@@ -8,10 +8,10 @@ MOL  3
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
      1          c3      1    MOL     C1      1  0.04030000    12.0100
-     2           n      1    MOL     N1      2 -0.40540000    14.0100
-     3          cz      1    MOL     C2      3  0.47860000    12.0100
+     2           n      1    MOL     N1      2 -0.41230000    14.0100
+     3          cz      1    MOL     C2      3  0.50140000    12.0100
      4          nv      1    MOL     N2      4 -0.50120000    14.0100
-     5          nu      1    MOL     N3      5 -0.36120000    14.0100
+     5          nu      1    MOL     N3      5 -0.37710000    14.0100
      6          c3      1    MOL     C3      6  0.11800000    12.0100
      7          c3      1    MOL     C4      7 -0.11410000    12.0100
      8          c3      1    MOL     C5      8 -0.09840000    12.0100
